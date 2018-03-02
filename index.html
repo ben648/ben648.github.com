@@ -13,8 +13,10 @@ This is a test.
 </p>
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
-<svg height="110" width="110">
-  <ellipse cx="55" cy="55" rx="50" ry="50" style="fill:green;stroke:black;stroke-width:3" />
+<svg height="110" width="110" style="fill:#0064FF">
+  <ellipse cx="55" cy="55" style="fill:green;stroke:black;stroke-width:3" />
+	<animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s" repeatCount="indefinite" />
+	Sorry, your browser does not support inline SVG.
 </svg>
 </button>
 <p id="demo">This is a test.</p>
